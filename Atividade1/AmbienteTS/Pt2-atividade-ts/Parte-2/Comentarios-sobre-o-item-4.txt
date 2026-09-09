@@ -1,0 +1,21 @@
+﻿Comentários do item 4 da Segunda parte do exercício:
+
+
+Sobre o item a):
+O JS transformou a variável que era um número para string e concatenou com a variável que já foi declarada como string mesmo sendo um número. 
+
+
+Sobre o item b):
+Pelo o que eu entendi o true é tratado como um int com valor 1 e o false é tratado como um int com valor 0 então quando fazemos uma soma entre uma variável com um valor true e uma variável com valor numérico é o mesmo que somar este valor + 1.
+
+
+
+
+Sobre o item c):
+No primeiro console como já foi dito antes o JS interpreta o false como valor numérico 0 então quando se faz essa comparação (0==false) ela resulta em true.
+
+
+No segundo o JS interpreta strings vazias como false.
+
+
+No terceiro console ele compara os valores dos tipos null e undefined como eles são tipos “vazios” o valor é o mesmo então a comparação retorna true.
