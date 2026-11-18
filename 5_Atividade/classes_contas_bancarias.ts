@@ -229,3 +229,5 @@ for (const c of listaDaMaria) {
 console.log("\n=== Totalizar Saldo dos Clientes ===");
 console.log(`Total da Maria (esperado 2000): ${banco.totalizarSaldoCliente("11111111111")}`);
 console.log(`Total do João (esperado 300): ${banco.totalizarSaldoCliente("22222222222")}`);
+
+//mensagem pra alterar commit
