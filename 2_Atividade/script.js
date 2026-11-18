@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+console.log("\n");
 console.log("1) Questao");
 function saudacao(nome, pronome_tratamento) {
     if (pronome_tratamento == undefined) {
@@ -38,11 +39,18 @@ console.log(soma(1, 2));
 console.log(soma(1, "2"));
 console.log(soma(1));
 console.log("\n");
-//terminar depois
-//console.log("4) Questao");
-//function exibir(...caracteres):string {
-//    caracteres.forEach ((caracter)=>{
-//        console.log(`${caracter}`);
-//    });
-//}
+console.log("4) Questao");
+function exibir_elementos(...caracteres) {
+    let nova_array = "";
+    caracteres.forEach((caracter) => {
+        nova_array += "${caracter} ";
+    });
+    console.log(nova_array);
+}
+exibir_elementos("a", "b");
+exibir_elementos("a", "b", "c");
+exibir_elementos("a", "b", "c", "d");
+console.log("\n");
+console.log("5) Questao");
+// mensagem pra alterar a mensagem do commit
 //# sourceMappingURL=script.js.map
